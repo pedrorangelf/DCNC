@@ -25,8 +25,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700 !important;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif  !important;;
 }
 
 section {
@@ -40,12 +40,12 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-  font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
+  font-size: 18px;
+  font-weight: 400 !important;
+  /* font-style: italic; */
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
 
 @media (min-width: 768px) {
@@ -70,13 +70,13 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #61401f !important;
-  border-color: #61401f !important;
+  background-color: #447688 !important;
+  border-color: #447688 !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem #86592d !important;
+  box-shadow: 0 0 0 0.2rem #5593aa !important;
 }
 
 ::-moz-selection {
@@ -131,7 +131,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #744d25;
+  color: #4d8499;
 }
 
 @media (min-width: 992px) {
@@ -191,7 +191,7 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
   letter-spacing: 1px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -208,11 +208,11 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 40px;
     margin-bottom: 25px;
     letter-spacing: 1px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -695,4 +695,9 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #345a68;
+}
+
+.no-width{
+  width: 0% !important;
+  color: #1a1a1a !important;
 }
