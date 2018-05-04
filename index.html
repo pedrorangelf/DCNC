@@ -29,6 +29,7 @@
     
     <link href="css/agency.css" rel="stylesheet">
 
+
     <style>
       .carousel-inner > .item > img,
       .carousel-inner > .item > a > img {
@@ -78,7 +79,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead">
+    <header class="masthead" style="opacity: 0;">
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Dinamismo, proatividade, pensamento empreendedor e alinhamento corporativo. </div>
@@ -1002,7 +1003,14 @@
             </form>
           </div>
         </div>
-      </div>
+	<div class="col-lg-12 text-center">
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d554262.5485141933!2d-43.91023074437293!3d-20.053552264704702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6979c35532c8d%3A0x7e5b30d7cd37b2bc!2sDias+Costa+Nunes+Zadorosny+Sociedade+de+Advogados!5e0!3m2!1spt-BR!2sbr!4v1525441968858" width="90%" height="300px" frameborder="1px" style="border:1px; padding-top: 3%" allowfullscreen></iframe>
+	  <h3 class="section-subheading text-muted">
+	  Av. Raja Gabáglia, 1.617 – 6 e 7º andares . Luxemburgo CEP 30.380-435 . </br> 
+	  Tel.: (31) 3274-5668 contato@dcncadvogados.com.br</h3>
+	  </div>
+	   
+	  </div>
     </section>
 
     <!-- Footer -->
@@ -1251,6 +1259,7 @@
       </div>
     </div>
 
+	
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1266,7 +1275,11 @@
     <script src="js/agency.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<script type="">
+		$(document).ready(function() {
+			$('.masthead').animate({ opacity: 1 }, { duration: 1500 });
+		});		
+	</script>
   </body>
 
 </html>

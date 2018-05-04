@@ -301,6 +301,14 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 767px) {
+	
+	.mapa{
+		width: 90% !important;
+		height: 300px !important;
+		margin-left: 7% !important;
+		padding-top: 3% !important;
+	}
+	
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
@@ -599,7 +607,7 @@ header.masthead .intro-text .intro-heading {
 section#contact {
   background-color: #1a1a1a;
   background-image: url("../img/backpreto.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
 }
 
