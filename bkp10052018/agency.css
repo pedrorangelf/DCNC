@@ -8,15 +8,15 @@ p {
 }
 
 a {
-  color: #009999;
+  color: #cc8800;
 }
 
 a:hover {
-  color: #009999;
+  color: #cc8800;
 }
 
 .text-primary {
-  color: #009999!important;
+  color: #cc8800 !important;
 }
 
 h1,
@@ -65,27 +65,27 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #009999;
-  border-color: #009999;
+  background-color: #cc8800;
+  border-color: #cc8800;
   border-width: 3px;
 }
 
 .btn-secondary {
-  background-color: #5a6268;
-  border-color: #009999;
+  background-color: transparent;
+  border-color: #cc8800;
   color: #fff;
   border-width: 3px;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #009999!important;
-  border-color: #5a6268!important;
+  background-color: #cc8800!important;
+  border-color: #cc8800!important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: transparent!important;
-  border-color: #009999!important;
+  border-color: #cc8800!important;
   color: white;
 }
 
@@ -98,12 +98,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #009999;
+  background: #cc8800;
   text-shadow: none;
 }
 
 ::selection {
-  background: #009999;
+  background: #cc8800;
   text-shadow: none;
 }
 
@@ -116,7 +116,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: rgba(255, 255, 255); padding: 5px 15px 5px 50px;
+  background-color: rgba(255, 255, 255, 0.6); padding: 5px 15px 5px 50px;
 }
 
 #mainNav .navbar-toggler {
@@ -126,22 +126,22 @@ img::-moz-selection {
   text-transform: uppercase;
   color: #fff;
   border: 0;
-  background-color: #009999;
+  background-color: #cc8800;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #009999;
+  color: #cc8800;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #009999;
+  color: #cc8800;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
-  font-weight: 600;
+  font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: #1a1a1a;
@@ -149,7 +149,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #009999;
+  color: #cc8800;
   border: 1px; 
 }
 
@@ -160,9 +160,9 @@ img::-moz-selection {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    border-bottom-color: #009999;
+    border-bottom-color: #cc8800;
     border-bottom-style: solid;
-    background-color: rgba(255, 255, 255); padding: 5px 15px 5px 50px;
+    background-color: rgba(255, 255, 255, 0.7); padding: 5px 15px 5px 50px;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -187,7 +187,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/dedotelae.jpg");
+  background-image: url("../img/dedotelapb.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -270,7 +270,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: #009999;
+  background: #cc8800;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -474,7 +474,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #009999;
+  background-color: #cc8800;
 }
 
 .timeline > li .timeline-image h4 {
@@ -666,7 +666,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #009999;
+  border-color: #cc8800;
   box-shadow: none;
 }
 
@@ -736,7 +736,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #009999;
+  background-color: #cc8800;
 }
 
 .no-width{
