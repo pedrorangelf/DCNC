@@ -1,4 +1,4 @@
-# [Site para Sociedade de Advogados - DC&NC](https://http://srtestesite.online/DCNC/)
+# [Site para Sociedade de Advogados - DC&NC](http://srtestesite.online/DCNC/)
 
 ## Prévia
 
