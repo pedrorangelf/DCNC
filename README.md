@@ -20,7 +20,7 @@ Site de apresentação para a sociedade de advogados Dias Costa e Nunes Carvalho
 * https://startbootstrap.com
 * https://twitter.com/SBootstrap
 
-This website was created by and is maintained by **[Pedro Rangel], Owner of [S&R Web Dev].
+This website was created by and is maintained by **[Pedro Rangel]**, Owner of **[S&R Web Dev]**.
 
 * https://twitter.com/rangeldev
 
