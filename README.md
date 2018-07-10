@@ -2,7 +2,7 @@
 
 ## Prévia
 
-[![Prévia do Site](https://startbootstrap.com/assets/img/templates/agency.jpg)](http://srtestesite.online/DCNC/)
+[![Prévia do Site](http://srtestesite.online/DCNC/img/home.png)](http://srtestesite.online/DCNC/)
 
 **[View Live Preview](http://srtestesite.online/DCNC/)**
 
